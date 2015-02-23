@@ -1,0 +1,13 @@
+# Site settings
+title: Jeremy Herrman
+email: jeremy@jherrman.com
+description: > # this means to ignore newlines until "baseurl:"
+# Description will appear in your document head meta (for Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jherrm.com" # the base hostname & protocol for your site
+twitter_username: jherrm
+facebook_username: herrman
+github_username:  jherrm
+
+# Build settings
+markdown: kramdown
