@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2010/07/slowmo-video-fun/
 dsq_thread_id:
-  - 112005106
+  - 26 http://jherrman.com/?p=26
 categories:
   - random
 ---
@@ -12,7 +12,7 @@ In the Spring of 2009, I bought a new point and shoot camera &#8211; the <a oncl
 
 <!--more-->
 
-  
+
 To get an idea of what each of the settings looks like, here&#8217;s a demo of each speed:
 
 210 frames per second  

@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2012/09/behind-enemy-lines-using-git-as-a-frontend-to-svn/
 dsq_thread_id:
-  - 834779405
+  - 138 http://jherrman.com/?p=138
 categories:
   - code
 ---
@@ -23,7 +23,7 @@ Pushing and pulling changes to/from svn requires a clean repo, so the first thin
         (resolve any conflicts caused by local commits)
     git stash pop
         (resolve any conflicts caused by stashed content)
-    
+
 
 ### Push your commits to svn {#pushyourcommitstosvn}
 
@@ -31,7 +31,7 @@ Pushing and pulling changes to/from svn requires a clean repo, so the first thin
     git svn dcommit
     git stash pop
         (resolve any conflicts)
-    
+
 
 ### A note about dcommit {#anoteaboutdcommit}
 
@@ -41,7 +41,7 @@ The dcommit command stands for &#8220;duplicate commit&#8221;. While it sounds s
         1. duplicate commits to svn
         2. delete local copy of those commits
         3. rebase to pull those commits from svn
-    
+
 
 ## Resolving Conflicts {#resolvingconflicts}
 
@@ -54,7 +54,7 @@ There are two common places where you&#8217;ll experience conflicts while using 
         First, rewinding head to replay your work on top of it...
         Auto-merging config/environments/development.rb
         CONFLICT (content): Merge conflict in config/environments/development.rb
-    
+
 
 You may notice that we&#8217;re no longer on any branch:
 
@@ -62,26 +62,26 @@ You may notice that we&#8217;re no longer on any branch:
     * (no branch)
       master
       remotes/trunk
-    
+
 
 That&#8217;s okay though, just resolve the conflicts as usual:
 
     git mergetool
         Merging:
         config/environments/development.rb
-    
+
 
 Once you&#8217;re finished resolving the conflicts, continue the rebase:
 
     git rebase --continue
-    
+
 
 And we&#8217;re back on the master branch:
 
     git branch -a
     * master
       remotes/trunk
-    
+
 
 However, running `git status` shows that there&#8217;s nothing staged even though we changed the files during conflict resolution. Don&#8217;t worry, the changes made during confict resolution were combined with the commit that caused the confict during the `git rebase --continue`.
 
@@ -91,32 +91,32 @@ Here&#8217;s what the stash stack looks like before we attempt to pop:
 
     git stash list
     stash@{0}: WIP on master: d900c3c Fixing bug #502.
-    
+
 
 And here&#8217;s the conflict when we go to pop the latest stash:
 
     git stash pop
         Auto-merging config/environments/development.rb
         CONFLICT (content): Merge conflict in config/environments/development.rb
-    
+
 
 Just like usual, resolve the conflicts:
 
     git mergetool
         Merging:
         config/environments/development.rb
-    
+
 
 Unlike conflicts shown above when running `git svn rebase`, you have to commit the changes made while resolving the conflicts.
 
     git commit -a -m "Resolving Conflicts"
-    
+
 
 We&#8217;re not quite done yet. Although we&#8217;ve successfully merged the stash, it&#8217;s actually still there:
 
     git stash list
         stash@{0}: WIP on master: d900c3c Fixing bug #502.
-    
+
 
 The stash remains because git keeps it when conflicts are found so no work gets lost.
 
@@ -124,17 +124,17 @@ It&#8217;s a good idea to drop this immediately after resolving the conflicts. I
 
     git stash drop
         Dropped refs/stash@{0} (0a7aeafd302d4b2bfa48fbbf7b9ac67544fc5d2d)
-    
+
 
 If you want to ensure you&#8217;re not dropping an important stash, you can always run a diff against the stash:
 
     git stash show -u
-    
+
 
 And finally, push the conflict resolutions to svn:
 
     git svn dcommit
-    
+
 
 ## Conclusion {#conclusion}
 

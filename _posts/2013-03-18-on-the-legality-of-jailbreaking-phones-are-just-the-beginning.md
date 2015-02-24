@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2013/03/on-the-legality-of-jailbreaking-phones-are-just-the-beginning/
 dsq_thread_id:
-  - 1147395256
+    176 http://jherrman.com/?p=176
 categories:
   - UAV
 ---

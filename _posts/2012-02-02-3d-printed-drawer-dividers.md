@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2012/02/3d-printed-drawer-dividers/
 dsq_thread_id:
-  - 561214793
+  - 80 http://jherrman.com/?p=80
 categories:
   - 3D
 ---

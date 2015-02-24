@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2012/10/gcode-viewer/
 dsq_thread_id:
-  - 893116744
+  - 158 http://jherrman.com/?p=158
 categories:
   - 3D
   - code

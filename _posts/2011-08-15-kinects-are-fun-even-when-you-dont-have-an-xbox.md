@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2011/08/kinects-are-fun-even-when-you-dont-have-an-xbox/
 dsq_thread_id:
-  - 386181696
+  - 52 http://jherrman.com/?p=52
 categories:
   - 3D
 tags:

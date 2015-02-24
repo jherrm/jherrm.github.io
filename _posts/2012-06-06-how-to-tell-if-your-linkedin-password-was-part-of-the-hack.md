@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2012/06/how-to-tell-if-your-linkedin-password-was-part-of-the-hack/
 dsq_thread_id:
-  - 716070684
+  - 109 http://jherrman.com/?p=109
 categories:
   - random
 ---

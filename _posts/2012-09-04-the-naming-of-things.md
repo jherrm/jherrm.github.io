@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2012/09/the-naming-of-things/
 dsq_thread_id:
-  - 830782688
+  - 133 http://jherrman.com/?p=133
 categories:
   - random
 ---

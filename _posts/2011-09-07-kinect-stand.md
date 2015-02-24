@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2011/09/kinect-stand/
 dsq_thread_id:
-  - 407448679
+  - 67 http://jherrman.com/?p=67
 categories:
   - 3D
 tags:

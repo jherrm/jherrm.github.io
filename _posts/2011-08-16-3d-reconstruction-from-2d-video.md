@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2011/08/3d-reconstruction-from-2d-video/
 dsq_thread_id:
-  - 387578253
+  - 54 http://jherrman.com/?p=54
 categories:
   - 3D
 tags:

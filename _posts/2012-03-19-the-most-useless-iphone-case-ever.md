@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2012/03/the-most-useless-iphone-case-ever/
 dsq_thread_id:
-  - 617144020
+  - 96 http://jherrman.com/?p=96
 categories:
   - random
 ---

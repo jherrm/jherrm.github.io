@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2012/06/3d-scanning-with-the-kinect/
 dsq_thread_id:
-  - 719392322
+  - 123 http://jherrman.com/?p=123
 categories:
   - random
 tags:

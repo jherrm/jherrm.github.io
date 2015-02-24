@@ -4,7 +4,7 @@ author: Jeremy
 layout: post
 permalink: /2012/04/reconstructme-in-mac-os-x-via-parallels/
 dsq_thread_id:
-  - 656768990
+  - 110 http://jherrman.com/?p=110
 categories:
   - 3D
 ---
@@ -22,7 +22,7 @@ Let&#8217;s start with the <a onclick="javascript:pageTracker._trackPageview('/o
 
 <div id="attachment_113" style="width: 622px" class="wp-caption aligncenter">
   <a onclick="javascript:pageTracker._trackPageview('/downloads/wp-content/uploads/2012/04/NVIDIA-nogo1.png');"  href="http://jherrman.com/wp-content/uploads/2012/04/NVIDIA-nogo1.png"><img class="size-full wp-image-113" title="NVIDIA No Go" src="http://jherrman.com/wp-content/uploads/2012/04/NVIDIA-nogo1.png" alt="" width="612" height="456" /></a>
-  
+
   <p class="wp-caption-text">
     Native display drivers don't typically work inside virtual machines.
   </p>
@@ -52,7 +52,7 @@ A warning: Running anything in a virtual machine will never be as fast as runnin
 
 <div id="attachment_116" style="width: 359px" class="wp-caption aligncenter">
   <a onclick="javascript:pageTracker._trackPageview('/downloads/wp-content/uploads/2012/04/MacPlus.png');"  href="http://jherrman.com/wp-content/uploads/2012/04/MacPlus.png"><img class="size-full wp-image-116" title="Mac Plus" src="http://jherrman.com/wp-content/uploads/2012/04/MacPlus.png" alt="" width="349" height="322" /></a>
-  
+
   <p class="wp-caption-text">
     An appropriate first scan with ReconstructMe on a Mac
   </p>
